@@ -1,6 +1,6 @@
 const express = require("express");
 const { uploadFile } = require("../Controller/fileController");
-const { validateFile } = require("../Validators/");
+const { validateFile } = require("../Validators/fileValidator");
 const { authenticateUser } = require("../Middleware/authMiddleware");
 const multer = require("multer");
 
